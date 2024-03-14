@@ -80,3 +80,6 @@ p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+.grid-item:disabled{
+    color: black; 
+}
