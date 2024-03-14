@@ -68,8 +68,9 @@ reset.addEventListener("click",() => {
     box.forEach(element => {
         element.innerHTML="";
         element.disabled=false;
-        para.innerHTML="Click to Start (X)";
-        turn=true;
     })
+    para.innerHTML="Click to Start (X)";
+    turn=true;
+    reset.innerHTML="RESET";
 });
 result();
